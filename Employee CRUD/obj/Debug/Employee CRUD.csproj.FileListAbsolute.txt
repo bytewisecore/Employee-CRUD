@@ -1,0 +1,10 @@
+D:\Projects\Visual Studio Projects\Employee CRUD\Employee CRUD\bin\Debug\Employee CRUD.exe.config
+D:\Projects\Visual Studio Projects\Employee CRUD\Employee CRUD\bin\Debug\Employee CRUD.exe
+D:\Projects\Visual Studio Projects\Employee CRUD\Employee CRUD\bin\Debug\Employee CRUD.pdb
+D:\Projects\Visual Studio Projects\Employee CRUD\Employee CRUD\obj\Debug\Employee CRUD.csproj.AssemblyReference.cache
+D:\Projects\Visual Studio Projects\Employee CRUD\Employee CRUD\obj\Debug\Employee_CRUD.Form1.resources
+D:\Projects\Visual Studio Projects\Employee CRUD\Employee CRUD\obj\Debug\Employee_CRUD.Properties.Resources.resources
+D:\Projects\Visual Studio Projects\Employee CRUD\Employee CRUD\obj\Debug\Employee CRUD.csproj.GenerateResource.cache
+D:\Projects\Visual Studio Projects\Employee CRUD\Employee CRUD\obj\Debug\Employee CRUD.csproj.CoreCompileInputs.cache
+D:\Projects\Visual Studio Projects\Employee CRUD\Employee CRUD\obj\Debug\Employee CRUD.exe
+D:\Projects\Visual Studio Projects\Employee CRUD\Employee CRUD\obj\Debug\Employee CRUD.pdb
