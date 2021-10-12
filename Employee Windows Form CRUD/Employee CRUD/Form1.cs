@@ -63,12 +63,22 @@ namespace Employee_CRUD
             string query = "select * from employees where id = '" + id.Text + "'";
             DataTable dt = demo.search(query);
             id.Text = dt.Rows[0]["id"].ToString();
-            fname.Text = dt.Rows[0]["firstname"].ToString();
-            lname.Text = dt.Rows[0]["lastname"].ToString();
+
+            if (dt.Rows.Count > 0)
+            {
+                datagridview.DataSource = dt;
+                datagridview.DataBind();
+            }
+            else
+            {
+                // Label9.Text="Result not Fount / Error 404";
+            }
+            //fname.Text = dt.Rows[0]["firstname"].ToString();
+            //lname.Text = dt.Rows[0]["lastname"].ToString();
             //gender.SelectedItem.ToString();
-            age.Text = dt.Rows[0]["age"].ToString() ;
-            cellphone.Text = dt.Rows[0]["cellphone"].ToString();
-            nationality.Text = dt.Rows[0]["nationality"].ToString();
+            //age.Text = dt.Rows[0]["age"].ToString() ;
+            //cellphone.Text = dt.Rows[0]["cellphone"].ToString();
+            //nationality.Text = dt.Rows[0]["nationality"].ToString();
             //dob.Value = dt.Rows[0]["lastname"].ToString().ToShortDateString();
 
 
