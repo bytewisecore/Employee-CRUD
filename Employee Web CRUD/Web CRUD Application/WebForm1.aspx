@@ -46,6 +46,8 @@
         <asp:Button ID="delete" runat="server" OnClick="delete_Click" Text="Delete" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="read" runat="server" OnClick="read_Click" Text="Read" />
+        <asp:GridView ID="gridview" runat="server">
+        </asp:GridView>
     </form>
 </body>
 </html>
