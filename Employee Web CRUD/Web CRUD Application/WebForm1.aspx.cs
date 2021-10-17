@@ -93,19 +93,21 @@ namespace Web_CRUD_Application
             string query = "select * from webemployees where id='"+ id.Text +"'";
             DataTable dt = db.search(query);
 
-            //if (dt.Rows.Count > 0)
-            //{
+            if (dt.Rows.Count > 0)
+            {
                 result.Text = "Read Was Successful";
+                gridview.DataSource = dt;
+                gridview.DataBind();
                 //id.Text = dt.Rows[0]["id"].ToString();
-                fname.Text = dt.Rows[0]["firstname"].ToString();
-                lname.Text = dt.Rows[0]["lastname"].ToString();
-                email.Text = dt.Rows[0]["email"].ToString();
-                age.Text = dt.Rows[0]["age"].ToString();
-                cellphone.Text = dt.Rows[0]["cellphone"].ToString();
-                position.Text = dt.Rows[0]["position"].ToString();
-            //}
-            //else
-              //  result.Text = "Read Was not Successful";
+                //fname.Text = dt.Rows[0]["firstname"].ToString();
+                //lname.Text = dt.Rows[0]["lastname"].ToString();
+                //email.Text = dt.Rows[0]["email"].ToString();
+                //age.Text = dt.Rows[0]["age"].ToString();
+                //cellphone.Text = dt.Rows[0]["cellphone"].ToString();
+                //position.Text = dt.Rows[0]["position"].ToString();
+            }
+            else
+                result.Text = "Read Was not Successful";
 
         }
     }
