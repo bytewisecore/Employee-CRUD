@@ -129,5 +129,10 @@ namespace Employee_CRUD
         {
 
         }
+
+        private void datagridview_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
